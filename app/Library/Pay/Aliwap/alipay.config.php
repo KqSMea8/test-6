@@ -1,0 +1,2 @@
+<?php
+$spcef7af['partner'] = '2088421538865921'; $spcef7af['seller_id'] = $spcef7af['partner']; $spcef7af['key'] = 'afrcvn5nzugzful4cto4wme3cj0i5x27'; $spcef7af['sign_type'] = strtoupper('MD5'); $spcef7af['input_charset'] = strtolower('utf-8'); $spcef7af['cacert'] = getcwd() . '\\cacert.pem'; $spcef7af['transport'] = 'https'; $spcef7af['payment_type'] = '1'; $spcef7af['service'] = 'alipay.wap.create.direct.pay.by.user';

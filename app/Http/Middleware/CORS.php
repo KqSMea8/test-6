@@ -1,0 +1,2 @@
+<?php
+namespace App\Http\Middleware; use Closure; class CORS { public function handle($sp2f63b0, Closure $spa5ba45) { if (config('app.debug')) { return $spa5ba45($sp2f63b0)->header('Access-Control-Allow-Origin', $sp2f63b0->header('Origin'))->header('Access-Control-Allow-Methods', 'POST, GET, OPTIONS, PUT, DELETE')->header('Access-Control-Allow-Headers', 'Content-Type, Accept, Authorization, Cookie, X-Requested-With, X-XSRF-TOKEN')->header('Access-Control-Allow-Credentials', 'true'); } return $spa5ba45($sp2f63b0); } }
